@@ -1,77 +1,77 @@
 # Lblock
 
-
-Lblock
-
 Lblock is a blockchain-based project designed to implement core blockchain functionalities, including mining, peer-to-peer networking, and consensus mechanisms. This repository contains the full implementation of the blockchain, along with a set of tools for managing and interacting with the chain.
 
-Features
+## Features
 
-Peer-to-peer networking with decentralized consensus
+* Peer-to-peer networking with decentralized consensus
+* Proof of Work (PoW) mining
+* Transaction validation and block creation
+* Secure and immutable chain of blocks
+* Modular design for easy extension
 
-Proof of Work (PoW) mining
+## Installation
 
-Transaction validation and block creation
+1. **Clone the repository**:
 
-Secure and immutable chain of blocks
+   ```bash
+   git clone https://github.com/rbwet/Lblock.git
+   cd Lblock
+   ```
 
-Modular design for easy extension
+2. **Install dependencies**:
 
-Installation
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Clone the repository:
+3. **Build the project**:
 
-git clone https://github.com/rbwet/Lblock.git
-cd Lblock
+   ```bash
+   python setup.py install
+   ```
 
-Install dependencies:
-
-pip install -r requirements.txt
-
-Build the project:
-
-python setup.py install
-
-Usage
+## Usage
 
 To start a node:
 
+```bash
 python main.py --node
+```
 
 To mine a new block:
 
+```bash
 python main.py --mine
+```
 
 To view the blockchain:
 
+```bash
 python main.py --view
+```
 
-Configuration
+## Configuration
 
-Configuration settings can be adjusted in the config.json file:
+Configuration settings can be adjusted in the `config.json` file:
 
-block_time: Time interval for block creation
+* **block\_time**: Time interval for block creation
+* **difficulty**: Mining difficulty
+* **network\_port**: Port for P2P communication
 
-difficulty: Mining difficulty
-
-network_port: Port for P2P communication
-
-Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
+1. Fork the repository.
+2. Create a new branch (`feature-branch`).
+3. Make your changes.
+4. Submit a pull request.
 
-Create a new branch (feature-branch).
+## License
 
-Make your changes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Submit a pull request.
+## Contact
 
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Contact
-
-For questions or collaboration inquiries, reach out at robbie@example.com.
+For questions or collaboration inquiries, reach out at [robbie@example.com](mailto:robbie@example.com).
